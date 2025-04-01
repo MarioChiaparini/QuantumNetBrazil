@@ -74,9 +74,6 @@ key_list = run_BB84_sim(runtimes=10, num_bits=200)
 ```
 
 ## 📚 Referências
-NetSquid: netsquid.org
-
-Skyfield: rhodesmill.org/skyfield/
 
 Referência Científica: Vasylyev et al., PRL 108, 220501 (2012) – Modelo de perda em espaço livre.
 
