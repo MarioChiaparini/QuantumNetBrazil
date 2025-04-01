@@ -34,3 +34,14 @@ Este repositório apresenta simulações que englobam:
 Utilize o `pip` para instalar as dependências:
 ```bash
 pip install --extra-index-url https://pypi.netsquid.org netsquid skyfield numpy matplotlib scipy pandas seaborn qutip pycryptodome
+```
+
+📚 Referências
+NetSquid: netsquid.org
+
+Skyfield: rhodesmill.org/skyfield/
+
+Referência Científica: Vasylyev et al., PRL 108, 220501 (2012) – Modelo de perda em espaço livre.
+
+Nota: Atualize os dados TLE no código para trajetórias atuais dos satélites. As simulações consideram condições idealizadas; ajuste parâmetros atmosféricos (Cn²) e de hardware (por exemplo, diâmetro do telescópio) para cenários reais.
+
