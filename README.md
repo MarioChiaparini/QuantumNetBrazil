@@ -36,7 +36,7 @@ Utilize o `pip` para instalar as dependências:
 pip install --extra-index-url https://pypi.netsquid.org netsquid skyfield numpy matplotlib scipy pandas seaborn qutip pycryptodome
 ```
 
-📚 Referências
+## 📚 Referências
 NetSquid: netsquid.org
 
 Skyfield: rhodesmill.org/skyfield/
