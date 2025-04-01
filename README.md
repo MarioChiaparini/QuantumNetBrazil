@@ -76,9 +76,8 @@ Configurar a Estação Terrestre:
 
 ```bash
 down_channel = DownChannel(tle_IRIDIUM_122, lat=-22.8542, lon=-47.0220, alt=0)
-Executar a Simulação do Protocolo BB84:
 ```
-
+Executar a Simulação do Protocolo BB84:
 ```bash
 protocol = BB84(num_bits=200, fibre_len=1500)
 key_list = run_BB84_sim(runtimes=10, num_bits=200)
