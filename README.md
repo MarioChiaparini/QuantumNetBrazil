@@ -1,5 +1,4 @@
-# 🚀 Simulação de Comunicações Satelitais no Brasil: Análise dos
-Protocolos de Teletransporte Quântico e BB84 🛰 #
+# 🚀 Simulação de Comunicações Satelitais no Brasil: Análise dos Protocolos de Teletransporte Quântico e BB84 🛰 
 
 Bem-vindo(a) ao repositório de **Simulações de Teletransporte Quântico e Distribuição de Chaves Quânticas (BB84)** utilizando canais satélite-terra. Este projeto integra a framework [NetSquid](https://netsquid.org) para redes quânticas com [Skyfield](https://rhodesmill.org/skyfield/) para cálculos de trajetórias de satélites, trazendo um toque futurista e de ficção científica para a pesquisa em comunicações quânticas.
 
