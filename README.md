@@ -36,16 +36,6 @@ Utilize o `pip` para instalar as dependências:
 pip install --extra-index-url https://pypi.netsquid.org netsquid skyfield numpy matplotlib scipy pandas seaborn qutip pycryptodome
 ```
 
-## 📚 Referências
-NetSquid: netsquid.org
-
-Skyfield: rhodesmill.org/skyfield/
-
-Referência Científica: Vasylyev et al., PRL 108, 220501 (2012) – Modelo de perda em espaço livre.
-
-Nota: Atualize os dados TLE no código para trajetórias atuais dos satélites. As simulações consideram condições idealizadas; ajuste parâmetros atmosféricos (Cn²) e de hardware (por exemplo, diâmetro do telescópio) para outros cenários.
-
-
 ## 🛠️ Uso
 Teletransporte Quântico (TelePorts.ipynb)
 
@@ -82,3 +72,12 @@ Executar a Simulação do Protocolo BB84:
 protocol = BB84(num_bits=200, fibre_len=1500)
 key_list = run_BB84_sim(runtimes=10, num_bits=200)
 ```
+
+## 📚 Referências
+NetSquid: netsquid.org
+
+Skyfield: rhodesmill.org/skyfield/
+
+Referência Científica: Vasylyev et al., PRL 108, 220501 (2012) – Modelo de perda em espaço livre.
+
+Nota: Atualize os dados TLE no código para trajetórias atuais dos satélites. As simulações consideram condições idealizadas; ajuste parâmetros atmosféricos (Cn²) e de hardware (por exemplo, diâmetro do telescópio) para outros cenários.
