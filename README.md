@@ -52,9 +52,8 @@ Simular Perda no Canal:
 
 ```bash
 model = FixedSatelliteLossModel(txDiv=1e-6, sigmaPoint=0.5e-8, ...)
-Executar a Simulação de Teletransporte:
 ```
-
+Executar a Simulação de Teletransporte:
 ```bash
 network = example_network_setup(node_distance=800, depolar_rate=1e1)
 ns.sim_run()
