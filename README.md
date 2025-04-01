@@ -45,3 +45,41 @@ Referência Científica: Vasylyev et al., PRL 108, 220501 (2012) – Modelo de p
 
 Nota: Atualize os dados TLE no código para trajetórias atuais dos satélites. As simulações consideram condições idealizadas; ajuste parâmetros atmosféricos (Cn²) e de hardware (por exemplo, diâmetro do telescópio) para outros cenários.
 
+
+## 🛠️ Uso
+Teletransporte Quântico (TelePorts.ipynb)
+
+Definir Parâmetros do Satélite:
+
+```bash
+tle_IRIDIUM_122 = """
+1 42957U 17061C   25007.49702594  .00000117  00000+0  34556-4 0  9991
+2 42957  86.3957 244.8288 0001777  86.7983 273.3416 14.34214161379435
+"""
+```
+
+Simular Perda no Canal:
+
+```bash
+model = FixedSatelliteLossModel(txDiv=1e-6, sigmaPoint=0.5e-8, ...)
+Executar a Simulação de Teletransporte:
+```
+
+```bash
+network = example_network_setup(node_distance=800, depolar_rate=1e1)
+ns.sim_run()
+```
+
+
+### Protocolo BB84 (SatBB84.ipynb)
+Configurar a Estação Terrestre:
+
+```bash
+down_channel = DownChannel(tle_IRIDIUM_122, lat=-22.8542, lon=-47.0220, alt=0)
+Executar a Simulação do Protocolo BB84:
+```
+
+```bash
+protocol = BB84(num_bits=200, fibre_len=1500)
+key_list = run_BB84_sim(runtimes=10, num_bits=200)
+```
