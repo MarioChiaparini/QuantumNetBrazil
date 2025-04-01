@@ -77,4 +77,4 @@ key_list = run_BB84_sim(runtimes=10, num_bits=200)
 Vasylyev et al., PRL 108, 220501 (2012) – Modelo de perda em espaço livre.
 
 ## 🛰 Notas
-Atualize os dados TLE no código para trajetórias atuais dos satélites. As simulações consideram condições idealizadas; ajuste parâmetros atmosféricos (Cn²) e de hardware (por exemplo, diâmetro do telescópio) para outros cenários.
+As simulações consideram condições idealizadas; ajuste parâmetros atmosféricos (Cn²) e de hardware (por exemplo, diâmetro do telescópio) para outros cenários.
